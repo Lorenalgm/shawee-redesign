@@ -1,0 +1,29 @@
+html,*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;  
+}
+
+:root{
+  --primary-color: #D53C50;
+  --secondary-color: #21262A;
+  --text-color: #DAD8D8;
+  --container-color: #343333;
+  --menu-color: #1E1E1E;
+}
+
+body, input, button, textarea, a{
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+}
+
+body{
+  background-color: var(--secondary-color);
+}
+
+#root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
