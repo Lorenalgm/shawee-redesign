@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../../assets/logo.png';
 import {Link} from 'react-router-dom';
 import './styles.css';
+import { FaMailBulk, FaLock } from 'react-icons/fa';
 
 function Login(){
     return(
@@ -10,12 +11,12 @@ function Login(){
             <div className="login">
                 
                 <div className="input-block">
-                    <label htmlFor="email">E-mail</label>
+                    <label htmlFor="email"><FaMailBulk /> E-mail</label>
                     <input type="email" id="email" />
                 </div>
 
                 <div className="input-block">
-                    <label htmlFor="password">Senha</label>
+                    <label htmlFor="password"><FaLock /> Senha</label>
                     <input type="password" id="password" />
                 </div>
 
