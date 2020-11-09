@@ -1,6 +1,7 @@
 .menu-container{
     background-color: var(--menu-color);
     padding: 2em 3em 0 2em;
+    display: none;
 }
 
 .menu{
@@ -15,4 +16,10 @@ p{
 
 p:hover{
     color: var(--primary-color);
+}
+
+@media only screen and (min-width: 700px){
+    .menu-container{
+        display: block;
+    }
 }

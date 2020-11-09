@@ -4,6 +4,7 @@
 
 .header-container{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     padding: 0.6em 2em;
@@ -12,6 +13,7 @@
 
 nav{
     width: 18em;
+    margin-top: 1em;
 }
 
 nav ul{
@@ -34,4 +36,14 @@ nav ul{
     height: 2.3em;
     object-fit: cover;
     border-radius: 3em;
+}
+
+@media only screen and (min-width: 700px){
+    .header-container{
+        flex-direction: row;
+    }
+
+    nav{
+        margin-top: 0;
+    }
 }
