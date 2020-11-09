@@ -1,0 +1,18 @@
+.menu-container{
+    background-color: var(--menu-color);
+    padding: 2em 3em 0 2em;
+}
+
+.menu{
+    padding: 1.6em 5em 1.6em 0;
+    border-bottom: solid var(--container-color) 1px;
+}
+
+p{
+    cursor: pointer;
+    transition: 2ms;
+}
+
+p:hover{
+    color: var(--primary-color);
+}
