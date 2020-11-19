@@ -8,12 +8,57 @@
     height: 100%;
 }
 
+.content{
+ width: 100%;
+}
+
+.content h2{
+    margin: 1em 0;
+}
+
 .hackathon{
     width: 100%;
     padding: 0 0.5em;
 }
 
-
 .slider{
     max-width: 1000px;
+}
+
+.open-hackthons,.soon-hackthons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.hackthons-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hackthons-images img{
+    margin: 1em 0;
+    transition: ease-in 80ms;
+}
+
+.hackthons-images img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+@media only screen and (min-width: 800px){
+    .hackthons-images{
+        flex-direction: row;
+    }
+
+    .hackthons-images img{
+        margin: 1em 1em;
+    }
+
 }
