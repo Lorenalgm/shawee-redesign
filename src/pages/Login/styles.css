@@ -52,12 +52,16 @@
 
 .button{
     background-color: var(--primary-color);
-    padding: 0.8em 6.2em;
+    padding: 0.8rem 4rem;
     display: inline-block;
     font-weight: 700;
     font-size: 1.2rem;
     border-radius: 8px;
     transition: 0.2ms;
+}
+
+.button-login{
+    padding: 0.8rem 6.5rem;
 }
 
 .button:hover{

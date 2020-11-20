@@ -9,12 +9,12 @@
     border-bottom: solid var(--container-color) 1px;
 }
 
-p{
+.menu-container p{
     cursor: pointer;
     transition: 2ms;
 }
 
-p:hover{
+.menu-container p:hover{
     color: var(--primary-color);
 }
 

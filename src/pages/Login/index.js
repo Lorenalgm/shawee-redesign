@@ -22,7 +22,7 @@ function Login(){
 
                 <p className="forgot-password">Esqueci minha senha</p>
 
-                <Link className="button" to="/home">
+                <Link className="button button-login" to="/home">
                     Entrar
                 </Link>
                 <p className="register">Não tem uma conta? <a href="https://github.com/Lorenalgm">Cadastre-se</a></p>

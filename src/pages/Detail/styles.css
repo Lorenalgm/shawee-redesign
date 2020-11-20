@@ -1,0 +1,48 @@
+.detail-container .content{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-container .about{
+    margin-bottom: 3em;
+}
+
+.detail-container .about p{
+    margin: 2em 0;
+}
+
+.detail-container .schedule{
+    background: var(--container-color);
+    padding: 2em;
+}
+
+.detail-container .schedule h3{
+    margin-bottom: 1em;
+}
+
+.detail-container .event{
+    margin: 1.5em 0;
+}
+
+.detail-container .event span{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+@media only screen and (min-width: 800px){
+    .detail-container .content{
+        flex-direction: row;
+    }
+    .detail-container .about{
+        width: 70%;
+    }
+
+    .detail-container .about p{
+        width: 80%;
+    }
+
+}

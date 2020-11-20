@@ -15,9 +15,11 @@ function Detail(){
                         <h1>Mega Hack 3ª edição</h1>
                         <p>
                         O Monte Everest dos hackathons, e é preciso preparo para chegar ao topo.
-
+                        <br></br>
+                        <br></br>
                         Serão 11 dias, 10 diferentes desafios para escolher e infinitas possibilidades.
-
+                        <br></br>
+                        <br></br>
                         Então, prepare-se!
                         </p>
                         <Link className="button">Acessar evento</Link>
@@ -29,15 +31,15 @@ function Detail(){
                             <p>Inscrições</p>
                         </div>
                         <div className="event">
-                            <span>01/10 a 08/11</span>
+                            <span>08/11</span>
                             <p>Live de abertura</p>
                         </div>
                         <div className="event">
-                            <span>01/10 a 08/11</span>
+                            <span>09/11 a 11/11</span>
                             <p>Criação de times</p>
                         </div>
                         <div className="event">
-                            <span>01/10 a 08/11</span>
+                            <span>11/11 a 14/11</span>
                             <p>Desenvolvimento das soluções</p>
                         </div>
                     </div>
