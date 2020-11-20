@@ -22,7 +22,7 @@ function Detail(){
                         <br></br>
                         Então, prepare-se!
                         </p>
-                        <Link className="button">Acessar evento</Link>
+                        <Link className="button" to="/hackathon">Acessar evento</Link>
                     </div>
                     <div className="schedule">
                         <h3>Cronograma</h3>
