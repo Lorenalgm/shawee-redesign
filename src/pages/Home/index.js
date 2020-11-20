@@ -5,6 +5,7 @@ import hachathon1 from '../../assets/hack1.png';
 import hachathon2 from '../../assets/hack2.png';
 import Menu from '../../components/Menu';
 import './styles.css';
+import { Link } from 'react-router-dom';
 
 function Home(){
     return(
@@ -17,9 +18,15 @@ function Home(){
                         <h2>Hackathons em aberto</h2>
 
                         <div className="open hackthons-images">
-                            <img src={hachathon1} alt="Hackathon" />
-                            <img src={hachathon1} alt="Hackathon" />
-                            <img src={hachathon1} alt="Hackathon" />
+                            <Link to="/detail">
+                                <img src={hachathon1} alt="Hackathon" />
+                            </Link>
+                            <Link to="/detail">
+                                <img src={hachathon1} alt="Hackathon" />
+                            </Link>
+                            <Link to="/detail">
+                                <img src={hachathon1} alt="Hackathon" />
+                            </Link>
                         </div>
                     </div>
                     <div className="soon-hackthons">
