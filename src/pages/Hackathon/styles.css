@@ -1,0 +1,15 @@
+.hachathon-container .content{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.hachathon-container .indicators{
+    display: flex;
+    padding: 2em;
+}
+
+.hachathon-container .path{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

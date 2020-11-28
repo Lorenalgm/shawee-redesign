@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-function Path({props}){
+function Path(props){
     return(
         <div className="path-container">
            <div className="path-name">
