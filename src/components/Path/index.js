@@ -5,14 +5,18 @@ function Path(props){
     return(
         <div className="path-container">
            <div className="path-name">
-            <h1 className="path-number">{props.order}</h1>
-            <h1>{props.title}</h1>
+            <h1 className="path-title"><span>{props.order}.</span> {props.title}</h1>
            </div>
-           <div className="path-status">
-               <span>{props.status}</span>
+           <div className="path-info">
+               <span className={props.completed_date?'path-status finished-status':'path-status pending-status'}>{props.status}</span>
+               {!props.completed_date 
+               && <p>Prazo: <span className="pending">{props.deadline_date}</span></p>}
+
+               {props.completed_date 
+               && <><p>Prazo: <span className="finished">{props.deadline_date}</span></p>
+                    <p>Entregue: <span className="finished">{props.completed_date}</span></p></>
+               }
            </div>
-           <p>Prazo: {props.deadline_date}</p>
-           {props.completed_date} && <p>Entregue: {props.completed_date}</p>
         </div>
     )
 }

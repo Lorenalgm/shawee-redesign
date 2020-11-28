@@ -1,0 +1,67 @@
+.path-container{
+    background-color: var(--container-color);
+    width: 80%;
+    padding: 1em 2em;
+    margin: 1em 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.path-container .path-name{
+    display: flex;
+    align-items: center;
+}
+
+.path-container .path-title{
+    font-size: 1.1em;
+}
+
+.path-container .path-title span{
+    color: var(--secondary-color);
+    font-size: 3em;
+}
+.path-container .path-info{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.path-container .path-status{
+    font-weight: bold;
+    padding: .3em;
+    border-radius: 8px;
+    height: 2em;
+}
+
+.path-container .path-info p{
+    margin-left:1em;
+}
+
+.path-container .pending-status{
+    background-color: var(--primary-color);
+}
+
+.path-container .finished-status{
+    background-color: var(--finished-color);
+}
+
+.path-container .pending{
+    color: var(--primary-color);
+}
+
+.path-container .finished{
+    color: var(--finished-color);
+}
+
+@media only screen and (min-width: 800px){
+    .path-container .path-title{
+        font-size: 1.2em;
+    }
+
+    .path-container .path-status{
+        font-size: .7em;
+    }
+
+
+    
+}

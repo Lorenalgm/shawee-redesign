@@ -11,6 +11,7 @@ html,*{
   --text-color: #DAD8D8;
   --container-color: #343333;
   --menu-color: #1E1E1E;
+  --finished-color: #27AE60;
 }
 
 body, input, button, textarea, a{

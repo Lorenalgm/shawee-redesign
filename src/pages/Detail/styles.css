@@ -1,9 +1,13 @@
-.detail-container .content{
+.detail-container {
+    height: 100%;
+}
+
+.detail-container .detail-content{
     display: flex;
     flex-direction: column;
     padding: 2em;
     justify-content: center;
-    align-items: center;
+    width: 100%;
 }
 
 .detail-container .about{
@@ -17,6 +21,8 @@
 .detail-container .schedule{
     background: var(--container-color);
     padding: 2em;
+    height: 30em;
+    border-radius: 8px;
 }
 
 .detail-container .schedule h3{
@@ -34,7 +40,7 @@
 }
 
 @media only screen and (min-width: 800px){
-    .detail-container .content{
+    .detail-container .detail-content{
         flex-direction: row;
     }
     .detail-container .about{

@@ -1,15 +1,40 @@
-.hachathon-container .content{
+.hachathon-container{
+    height: 100%;
+}
+
+.hachathon-container .hachathon-content{
     display: flex;
     flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .hachathon-container .indicators{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     padding: 2em;
+    max-width: 100%;
 }
 
 .hachathon-container .path{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media only screen and (min-width: 800px){
+    .hachathon-container .hachathon-content{
+        flex-direction: row;
+    }
+
+    .hachathon-container .indicators{
+        flex-direction: column;
+    }
+
+    .hachathon-container .path{
+        width: 35em;
+    }
+    
 }

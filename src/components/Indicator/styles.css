@@ -1,0 +1,28 @@
+.indicator-container{
+    background-color: var(--container-color);
+    text-align: center;
+    border-radius: 8px;
+    padding: .7em;
+    width: 40%;
+    margin: 0 .3em;
+}
+
+.indicator-container h3{
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.indicator-container h1{
+    font-size: 2rem;
+}
+
+@media only screen and (min-width: 800px){
+    .indicator-container{
+        margin: .3em 0;
+        width: 10em;
+    }
+
+    .indicator-container h1{
+        font-size: 2.5rem;
+    }
+}

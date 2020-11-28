@@ -10,7 +10,7 @@ function Detail(){
             <Header />
             <div className="content-container">
                 <Menu />
-                <div className="content">
+                <div className="detail-content">
                     <div className="about">
                         <h1>Mega Hack 3ª edição</h1>
                         <p>

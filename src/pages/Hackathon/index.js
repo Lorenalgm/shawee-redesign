@@ -12,7 +12,7 @@ function Hachathon(){
             <Header />
             <div className="content-container">
                 <Menu />
-                <div className="content">
+                <div className="hachathon-content">
                     <div className="path">
                         <Path order="1" title="Escolha seu desafio" status="Concluído" deadline_date="08/11" completed_date="08/11" />
                         <Path order="2" title="Escolha seu time" status="Pendente" deadline_date="10/11" />
