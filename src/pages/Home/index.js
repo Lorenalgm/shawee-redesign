@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../../components/Header';
-import logo from '../../assets/logo.png';
 import hachathon1 from '../../assets/hack1.png';
 import hachathon2 from '../../assets/hack2.png';
 import Menu from '../../components/Menu';
