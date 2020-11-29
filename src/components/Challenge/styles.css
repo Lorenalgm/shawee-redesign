@@ -1,0 +1,52 @@
+.challenge-container{
+    background-color: var(--container-color);
+    display: flex;
+    margin-bottom: 2em;
+    max-width: 100%;
+}
+
+.challenge-container img{
+    width: 10em;
+    object-fit: cover;
+    display: none;
+}
+
+.challenge-text{
+    margin-bottom: 2em;
+}
+
+.challenge-content{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.challenge-content h1{
+    line-height: 0;
+}
+
+.challenge-content .challenge-more{
+    margin-top: 1em;
+    background-color: var(--secondary-color);
+    padding-right: 2.7em;
+    padding-left: 2.7em;
+}
+
+
+@media only screen and (min-width: 1100px){
+    .challenge-container{
+        height: 10em;
+    }
+
+    .challenge-content{
+        flex-direction: row;
+    }
+
+    .challenge-container img{
+        display: block;
+    }
+
+    .challenge-text{
+        margin-bottom: 0;
+    }
+}
