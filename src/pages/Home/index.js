@@ -11,9 +11,9 @@ function Home(){
     return(
         <div className="home-container">
             <Header />
-            <div className="content-container">
-                <Menu />
-                <div className="content">
+            <div className="home-content-container">
+                <Menu className="teste" />
+                <div className="home-content">
                     <div className="open-hackthons">
                         <h2>Hackathons em aberto</h2>
 

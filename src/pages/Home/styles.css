@@ -1,18 +1,13 @@
-.home-container{
-    width: 100%;
+.home-container,.home-content-container{
     height: 100%;
 }
 
-.content-container{
+.home-content-container{
     display: flex;
-    height: 100%;
+    justify-content: center;
 }
 
-.content{
- width: 100%;
-}
-
-.content h2{
+.home-content h2{
     margin: 1em 0;
 }
 
@@ -53,6 +48,10 @@
 }
 
 @media only screen and (min-width: 800px){
+    .home-content-container{
+        justify-content: start;
+    }
+    
     .hackthons-images{
         flex-direction: row;
     }

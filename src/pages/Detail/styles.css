@@ -1,5 +1,9 @@
-.detail-container {
+.detail-container,.detail-content-container{
     height: 100%;
+}
+
+.detail-content-container{
+    display: flex;
 }
 
 .detail-container .detail-content{

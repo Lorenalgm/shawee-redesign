@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../../components/Header';
-import Menu from '../../components/Menu';
+import MenuHacka from '../../components/MenuHacka';
 import Path from '../../components/Path';
 import Indicator from '../../components/Indicator';
 import './styles.css';
@@ -10,8 +10,8 @@ function Hachathon(){
     return(
         <div className="hachathon-container">
             <Header />
-            <div className="content-container">
-                <Menu />
+            <div className="hachathon-content-container">
+                <MenuHacka />
                 <div className="hachathon-content">
                     <div className="path">
                         <Path order="1" title="Escolha seu desafio" status="Concluído" deadline_date="08/11" completed_date="08/11" />

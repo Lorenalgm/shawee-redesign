@@ -8,7 +8,7 @@ function Detail(){
     return(
         <div className="detail-container">
             <Header />
-            <div className="content-container">
+            <div className="detail-content-container">
                 <Menu />
                 <div className="detail-content">
                     <div className="about">

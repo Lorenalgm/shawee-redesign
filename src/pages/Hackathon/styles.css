@@ -1,5 +1,10 @@
-.hachathon-container{
+.hachathon-container,.hachathon-content-container{
     height: 100%;
+}
+
+
+.hachathon-content-container{
+    display: flex;
 }
 
 .hachathon-container .hachathon-content{

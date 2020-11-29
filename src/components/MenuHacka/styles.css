@@ -1,0 +1,40 @@
+.menu-container{
+    background-color: var(--menu-color);
+    width: 20em;
+    padding: 2em 3em 0 2em;
+    display: none;
+}
+
+.menu{
+    padding: 1.6em 5em 1.6em 0;
+    border-bottom: solid var(--container-color) 1px;
+}
+
+.menu-container h3{
+    font-size: 15px;
+}
+
+.menu-container p{
+    cursor: pointer;
+    transition: 2ms;
+}
+
+.menu-container p:hover{
+    color: var(--primary-color);
+}
+
+.back-button{
+    margin-top: 2em;
+    font-weight: normal;
+    text-align: center;
+    background-color: var(--container-color);
+    font-size: 14px;
+    padding: 1em .9em;
+    width: 13em;
+}
+
+@media only screen and (min-width: 700px){
+    .menu-container{
+        display: block;
+    }
+}
