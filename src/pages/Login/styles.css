@@ -65,7 +65,7 @@
 }
 
 .button:hover{
-    opacity: 90%;
+    background-color: #f1364f;
 }
 
 .register{
